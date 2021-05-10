@@ -9,7 +9,7 @@
 
 .bg--white--line {
   width: 100%;
-  height: 1035px;
+  height: 1042px;
   background-color: white;
   position: absolute;
   top: 604px;
@@ -72,7 +72,9 @@
   position: relative;
   top: 205px;
   z-index: 1;
-  padding: 10px;
+  border: 1px solid cyan;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .content--second-container--grid {
@@ -82,7 +84,7 @@
   border: 1px solid blue;
   width: 70%;
   height: 600px;
-  top: 192px;
+  top: 210px;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
