@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.navbar {
+  width: 100%;
+  height: 120px;
+  background-color: rgb(58, 55, 55);
+  padding: 10px;
+}
+
+.navbar--main--container {
+  border: 1px solid red;
+  height: 100px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container--name {
+  color: white;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.search--icon--svg {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 71px;
+  left: 118px;
+}
+
+.search--input {
+  padding-left: 20px;
+}
