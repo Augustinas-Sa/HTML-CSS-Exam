@@ -10,11 +10,13 @@
   }
 
   .bg--white--line {
-    height: 590px;
+    height: 465px;
+    top: 730px;
   }
 
   .content--first-container--imgs {
     width: 750px;
+    top: 275px;
   }
 
   .img {
@@ -22,8 +24,13 @@
     height: 150px;
   }
 
+  .content--second-name--golden {
+    top: 245px;
+  }
+
   .content--paragraph {
     width: 750px;
+    top: 235px;
   }
 
   .content--second-container--grid {
@@ -31,6 +38,7 @@
     height: 210px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "img-amber about-1 img-billie about-2";
+    top: 235px;
   }
 
   .img-amber {
@@ -54,12 +62,12 @@
   }
 
   .footer {
-    height: 150px;
+    height: 170px;
   }
 
   .main--footer-container {
     width: 750px;
-    height: 150px;
+    height: 170px;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -71,36 +79,41 @@
   }
 
   .main--content {
-    height: 950px;
+    height: 1250px;
   }
 
   .bg--white--line {
-    height: 450px;
+    height: 495px;
+    top: 860px;
+  }
+
+  .content--name {
+    padding-top: 380px;
   }
 
   .content--first-container--imgs {
     width: 900px;
-    top: 145px;
+    top: 220px;
   }
 
   .img {
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     top: 124px;
   }
 
   .content--second-name--golden {
-    top: 135px;
+    top: 215px;
   }
 
   .content--paragraph {
     width: 900px;
-    top: 120px;
+    top: 210px;
   }
 
   .content--second-container--grid {
     width: 900px;
-    top: 120px;
+    top: 225px;
   }
 
   .main--footer-container {
